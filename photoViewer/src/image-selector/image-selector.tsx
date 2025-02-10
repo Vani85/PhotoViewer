@@ -16,12 +16,12 @@ const brokenImages = [
 
 export function DisplayImage() {   
     const urls = getImageUrls();
-    let htmlForUrls = "";
-
-    for(let url of urls) {
-        htmlForUrls += `<img className = "image" src = ${url}  alt="image"></img>`
-    }
+    
     return (  
-        <div className="imageContainer" dangerouslySetInnerHTML={{__html: htmlForUrls}}></div>
+        <div className="imageContainer">
+            {urls.map(url => 
+                <img className="image" src={url}  alt="image"/>
+            )}
+        </div>
     );
 }
