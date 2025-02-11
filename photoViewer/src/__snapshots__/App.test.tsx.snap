@@ -1,605 +1,283 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Should match with the Large image 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <img
-        class="thumbnailImage"
-        src="https://th.bing.com/th/id/OIP.Qcy1dh_eWTUTzZ7i8Ge34gHaEK?rs=1&pid=ImgDetMain"
-      />
-    </div>
-  </body>,
-  "container": <div>
+exports[`Should match with the app snapshot 1`] = `
+<div>
+  <h1
+    className="logo"
+  >
+    React Photo Viewer
+  </h1>
+  <img
+    className="thumbnailImage"
+    src="https://th.bing.com/th/id/OIP.Qcy1dh_eWTUTzZ7i8Ge34gHaEK?rs=1&pid=ImgDetMain"
+  />
+  <div
+    className="imageContainer"
+  >
     <img
-      class="thumbnailImage"
-      src="https://th.bing.com/th/id/OIP.Qcy1dh_eWTUTzZ7i8Ge34gHaEK?rs=1&pid=ImgDetMain"
+      className="image "
+      id="image0"
+      onClick={[Function]}
+      src="https://picsum.photos/id/600/1600/900.jpg"
     />
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Should match with the entire App 1`] = `
-{
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div>
-        <h1
-          class="logo"
-        >
-          React Photo Viewer
-        </h1>
-        <img
-          class="thumbnailImage"
-          src="https://th.bing.com/th/id/OIP.Qcy1dh_eWTUTzZ7i8Ge34gHaEK?rs=1&pid=ImgDetMain"
-        />
-        <div
-          class="imageContainer"
-        >
-          <img
-            class="image "
-            id="image0"
-            src="https://picsum.photos/id/600/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image1"
-            src="https://picsum.photos/id/602/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image2"
-            src="https://picsum.photos/id/603/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image3"
-            src="https://picsum.photos/id/604/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image4"
-            src="https://picsum.photos/id/605/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image5"
-            src="https://picsum.photos/id/606/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image6"
-            src="https://picsum.photos/id/607/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image7"
-            src="https://picsum.photos/id/608/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image8"
-            src="https://picsum.photos/id/609/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image9"
-            src="https://picsum.photos/id/610/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image10"
-            src="https://picsum.photos/id/611/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image11"
-            src="https://picsum.photos/id/612/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image12"
-            src="https://picsum.photos/id/613/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image13"
-            src="https://picsum.photos/id/614/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image14"
-            src="https://picsum.photos/id/615/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image15"
-            src="https://picsum.photos/id/616/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image16"
-            src="https://picsum.photos/id/617/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image17"
-            src="https://picsum.photos/id/618/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image18"
-            src="https://picsum.photos/id/619/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image19"
-            src="https://picsum.photos/id/620/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image20"
-            src="https://picsum.photos/id/621/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image21"
-            src="https://picsum.photos/id/622/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image22"
-            src="https://picsum.photos/id/623/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image23"
-            src="https://picsum.photos/id/625/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image24"
-            src="https://picsum.photos/id/626/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image25"
-            src="https://picsum.photos/id/627/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image26"
-            src="https://picsum.photos/id/628/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image27"
-            src="https://picsum.photos/id/629/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image28"
-            src="https://picsum.photos/id/630/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image29"
-            src="https://picsum.photos/id/631/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image30"
-            src="https://picsum.photos/id/633/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image31"
-            src="https://picsum.photos/id/634/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image32"
-            src="https://picsum.photos/id/635/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image33"
-            src="https://picsum.photos/id/637/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image34"
-            src="https://picsum.photos/id/638/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image35"
-            src="https://picsum.photos/id/639/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image36"
-            src="https://picsum.photos/id/640/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image37"
-            src="https://picsum.photos/id/641/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image38"
-            src="https://picsum.photos/id/642/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image39"
-            src="https://picsum.photos/id/643/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image40"
-            src="https://picsum.photos/id/645/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image41"
-            src="https://picsum.photos/id/646/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image42"
-            src="https://picsum.photos/id/648/1600/900.jpg"
-          />
-          <img
-            class="image "
-            id="image43"
-            src="https://picsum.photos/id/649/1600/900.jpg"
-          />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
-      <h1
-        class="logo"
-      >
-        React Photo Viewer
-      </h1>
-      <img
-        class="thumbnailImage"
-        src="https://th.bing.com/th/id/OIP.Qcy1dh_eWTUTzZ7i8Ge34gHaEK?rs=1&pid=ImgDetMain"
-      />
-      <div
-        class="imageContainer"
-      >
-        <img
-          class="image "
-          id="image0"
-          src="https://picsum.photos/id/600/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image1"
-          src="https://picsum.photos/id/602/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image2"
-          src="https://picsum.photos/id/603/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image3"
-          src="https://picsum.photos/id/604/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image4"
-          src="https://picsum.photos/id/605/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image5"
-          src="https://picsum.photos/id/606/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image6"
-          src="https://picsum.photos/id/607/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image7"
-          src="https://picsum.photos/id/608/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image8"
-          src="https://picsum.photos/id/609/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image9"
-          src="https://picsum.photos/id/610/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image10"
-          src="https://picsum.photos/id/611/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image11"
-          src="https://picsum.photos/id/612/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image12"
-          src="https://picsum.photos/id/613/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image13"
-          src="https://picsum.photos/id/614/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image14"
-          src="https://picsum.photos/id/615/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image15"
-          src="https://picsum.photos/id/616/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image16"
-          src="https://picsum.photos/id/617/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image17"
-          src="https://picsum.photos/id/618/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image18"
-          src="https://picsum.photos/id/619/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image19"
-          src="https://picsum.photos/id/620/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image20"
-          src="https://picsum.photos/id/621/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image21"
-          src="https://picsum.photos/id/622/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image22"
-          src="https://picsum.photos/id/623/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image23"
-          src="https://picsum.photos/id/625/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image24"
-          src="https://picsum.photos/id/626/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image25"
-          src="https://picsum.photos/id/627/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image26"
-          src="https://picsum.photos/id/628/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image27"
-          src="https://picsum.photos/id/629/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image28"
-          src="https://picsum.photos/id/630/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image29"
-          src="https://picsum.photos/id/631/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image30"
-          src="https://picsum.photos/id/633/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image31"
-          src="https://picsum.photos/id/634/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image32"
-          src="https://picsum.photos/id/635/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image33"
-          src="https://picsum.photos/id/637/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image34"
-          src="https://picsum.photos/id/638/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image35"
-          src="https://picsum.photos/id/639/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image36"
-          src="https://picsum.photos/id/640/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image37"
-          src="https://picsum.photos/id/641/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image38"
-          src="https://picsum.photos/id/642/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image39"
-          src="https://picsum.photos/id/643/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image40"
-          src="https://picsum.photos/id/645/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image41"
-          src="https://picsum.photos/id/646/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image42"
-          src="https://picsum.photos/id/648/1600/900.jpg"
-        />
-        <img
-          class="image "
-          id="image43"
-          src="https://picsum.photos/id/649/1600/900.jpg"
-        />
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
+    <img
+      className="image "
+      id="image1"
+      onClick={[Function]}
+      src="https://picsum.photos/id/602/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image2"
+      onClick={[Function]}
+      src="https://picsum.photos/id/603/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image3"
+      onClick={[Function]}
+      src="https://picsum.photos/id/604/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image4"
+      onClick={[Function]}
+      src="https://picsum.photos/id/605/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image5"
+      onClick={[Function]}
+      src="https://picsum.photos/id/606/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image6"
+      onClick={[Function]}
+      src="https://picsum.photos/id/607/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image7"
+      onClick={[Function]}
+      src="https://picsum.photos/id/608/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image8"
+      onClick={[Function]}
+      src="https://picsum.photos/id/609/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image9"
+      onClick={[Function]}
+      src="https://picsum.photos/id/610/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image10"
+      onClick={[Function]}
+      src="https://picsum.photos/id/611/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image11"
+      onClick={[Function]}
+      src="https://picsum.photos/id/612/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image12"
+      onClick={[Function]}
+      src="https://picsum.photos/id/613/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image13"
+      onClick={[Function]}
+      src="https://picsum.photos/id/614/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image14"
+      onClick={[Function]}
+      src="https://picsum.photos/id/615/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image15"
+      onClick={[Function]}
+      src="https://picsum.photos/id/616/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image16"
+      onClick={[Function]}
+      src="https://picsum.photos/id/617/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image17"
+      onClick={[Function]}
+      src="https://picsum.photos/id/618/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image18"
+      onClick={[Function]}
+      src="https://picsum.photos/id/619/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image19"
+      onClick={[Function]}
+      src="https://picsum.photos/id/620/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image20"
+      onClick={[Function]}
+      src="https://picsum.photos/id/621/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image21"
+      onClick={[Function]}
+      src="https://picsum.photos/id/622/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image22"
+      onClick={[Function]}
+      src="https://picsum.photos/id/623/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image23"
+      onClick={[Function]}
+      src="https://picsum.photos/id/625/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image24"
+      onClick={[Function]}
+      src="https://picsum.photos/id/626/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image25"
+      onClick={[Function]}
+      src="https://picsum.photos/id/627/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image26"
+      onClick={[Function]}
+      src="https://picsum.photos/id/628/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image27"
+      onClick={[Function]}
+      src="https://picsum.photos/id/629/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image28"
+      onClick={[Function]}
+      src="https://picsum.photos/id/630/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image29"
+      onClick={[Function]}
+      src="https://picsum.photos/id/631/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image30"
+      onClick={[Function]}
+      src="https://picsum.photos/id/633/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image31"
+      onClick={[Function]}
+      src="https://picsum.photos/id/634/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image32"
+      onClick={[Function]}
+      src="https://picsum.photos/id/635/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image33"
+      onClick={[Function]}
+      src="https://picsum.photos/id/637/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image34"
+      onClick={[Function]}
+      src="https://picsum.photos/id/638/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image35"
+      onClick={[Function]}
+      src="https://picsum.photos/id/639/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image36"
+      onClick={[Function]}
+      src="https://picsum.photos/id/640/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image37"
+      onClick={[Function]}
+      src="https://picsum.photos/id/641/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image38"
+      onClick={[Function]}
+      src="https://picsum.photos/id/642/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image39"
+      onClick={[Function]}
+      src="https://picsum.photos/id/643/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image40"
+      onClick={[Function]}
+      src="https://picsum.photos/id/645/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image41"
+      onClick={[Function]}
+      src="https://picsum.photos/id/646/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image42"
+      onClick={[Function]}
+      src="https://picsum.photos/id/648/1600/900.jpg"
+    />
+    <img
+      className="image "
+      id="image43"
+      onClick={[Function]}
+      src="https://picsum.photos/id/649/1600/900.jpg"
+    />
+  </div>
+</div>
 `;

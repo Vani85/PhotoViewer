@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './image-selector.css';
 
 const brokenImages = [
@@ -16,21 +15,15 @@ const brokenImages = [
     return urls;
 }
 
-export function DisplayImages(props: { onImageClick:  React.Dispatch<React.SetStateAction<string>>; }) {  
-    const {onImageClick} = props;
+export function DisplayImages(props: { onImageClick:  React.Dispatch<React.SetStateAction<string>>; imageUrl: string}) {  
+    const {onImageClick , imageUrl} = props;
     const urls = getImageUrls();
-    const [selectedImageUrl, setSelectedImageUrl] = useState("");
-
-    const handleImageClick = (url: string) => {
-        onImageClick(url);
-        setSelectedImageUrl(url);
-    }
-
+    
     return (   
         <div className="imageContainer">
             {urls.map((url,index) => 
-                <img id={`image${index}`} className={`image ${selectedImageUrl === url ? 'selected' : ''}`}
-                    src={url}  onClick={()=>handleImageClick(url)}/>
+                <img id={`image${index}`} className={`image ${imageUrl === url ? 'selected' : ''}`}
+                    src={url}  onClick={()=>onImageClick(url)}/>
             )}
         </div>
     );

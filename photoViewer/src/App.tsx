@@ -11,7 +11,7 @@ function App() {
        <div>
             <h1 className = 'logo'>React Photo Viewer</h1>
             <DisplayMainPhoto src={thumbnailUrl}/>
-            <DisplayImages onImageClick={setThumbnailUrl}/>
+            <DisplayImages onImageClick={setThumbnailUrl} imageUrl={thumbnailUrl}/>
         </div>
   )
 }
