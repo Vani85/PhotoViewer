@@ -1,0 +1,20 @@
+.imageContainer{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.image {
+    height: auto;
+    width: 30%;
+    border: 3px solid white;
+}
+
+.selected {
+    border: 3px solid rgb(238, 15, 15); 
+}
+
