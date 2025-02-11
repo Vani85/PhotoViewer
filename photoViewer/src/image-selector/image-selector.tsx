@@ -3,6 +3,8 @@ import './image-selector.css';
 const brokenImages = [
     1, 24, 32, 36, 44, 47
   ];
+
+
   export function getImageUrls() {
     const urls = [];
     for (let i = 0; i < 50; i++) {
@@ -14,13 +16,14 @@ const brokenImages = [
     return urls;
   }
 
-export function DisplayImage() {   
+export function DisplayImage(props: { onImageClick: any; }) {  
+    const {onImageClick} = props;
     const urls = getImageUrls();
-    
-    return (  
+
+    return (   
         <div className="imageContainer">
-            {urls.map(url => 
-                <img className="image" src={url}  alt="image"/>
+            {urls.map((url,index) => 
+                <img key={index}  className="image" src={url}  alt="image" onClick={()=>onImageClick(url)}/>
             )}
         </div>
     );
