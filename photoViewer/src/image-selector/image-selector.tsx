@@ -5,8 +5,7 @@ const brokenImages = [
     1, 24, 32, 36, 44, 47
   ];
 
-
-  export function getImageUrls() {
+ function getImageUrls() {
     const urls = [];
     for (let i = 0; i < 50; i++) {
         if (!brokenImages.includes(i)) {
@@ -15,9 +14,9 @@ const brokenImages = [
         }
     }
     return urls;
-  }
+}
 
-export function DisplayImage(props: { onImageClick: any; }) {  
+export function DisplayImages(props: { onImageClick:  React.Dispatch<React.SetStateAction<string>>; }) {  
     const {onImageClick} = props;
     const urls = getImageUrls();
     const [selectedImageUrl, setSelectedImageUrl] = useState("");
@@ -30,8 +29,8 @@ export function DisplayImage(props: { onImageClick: any; }) {
     return (   
         <div className="imageContainer">
             {urls.map((url,index) => 
-                <img key={index}  className={`image ${selectedImageUrl === url ? 'selected' : ''}`}
-                    src={url}  alt="image" onClick={()=>handleImageClick(url)}/>
+                <img id={`image${index}`} className={`image ${selectedImageUrl === url ? 'selected' : ''}`}
+                    src={url}  onClick={()=>handleImageClick(url)}/>
             )}
         </div>
     );
