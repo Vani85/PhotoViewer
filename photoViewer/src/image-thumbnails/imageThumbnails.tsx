@@ -1,4 +1,4 @@
-import './image-selector.css';
+import './imageThumbnails.css';
 
 const brokenImages = [
     1, 24, 32, 36, 44, 47

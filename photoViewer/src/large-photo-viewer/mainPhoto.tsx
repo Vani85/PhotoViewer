@@ -1,4 +1,4 @@
-import './Thumbnail.css';
+import './mainPhoto.css';
 
 export function DisplayMainPhoto(props: { src: string; }) {   
     return (  

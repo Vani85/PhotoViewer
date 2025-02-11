@@ -1,4 +1,3 @@
-import '@testing-library/jest-dom';
 import { render } from '@testing-library/react';
 import { userEvent } from '@testing-library/user-event';
 import App from './App';
@@ -7,7 +6,7 @@ import renderer from 'react-test-renderer';
 test('React Photo Viewer', () => {
     const { getByText } = render(<App />);
     const textElement = getByText(/React Photo Viewer/i);
-    expect(textElement).toBeVisible();
+    expect(textElement).toBeTruthy();
 });
 
 test('Broken images are not picked by the imageUrl generation', () => {

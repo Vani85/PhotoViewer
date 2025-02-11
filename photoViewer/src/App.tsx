@@ -1,6 +1,6 @@
 import './App.css';
-import { DisplayMainPhoto } from './Thumbnail/Thumbnail';
-import { DisplayImages } from './image-selector/image-selector';
+import { DisplayMainPhoto } from './large-photo-viewer/mainPhoto';
+import { DisplayImages } from './image-thumbnails/imageThumbnails';
 import { useState } from 'react';
 
 function App() {
