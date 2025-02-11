@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './image-selector.css';
 
 const brokenImages = [
@@ -19,11 +20,18 @@ const brokenImages = [
 export function DisplayImage(props: { onImageClick: any; }) {  
     const {onImageClick} = props;
     const urls = getImageUrls();
+    const [selectedImageUrl, setSelectedImageUrl] = useState("");
+
+    const handleImageClick = (url: string) => {
+        onImageClick(url);
+        setSelectedImageUrl(url);
+    }
 
     return (   
         <div className="imageContainer">
             {urls.map((url,index) => 
-                <img key={index}  className="image" src={url}  alt="image" onClick={()=>onImageClick(url)}/>
+                <img key={index}  className={`image ${selectedImageUrl === url ? 'selected' : ''}`}
+                    src={url}  alt="image" onClick={()=>handleImageClick(url)}/>
             )}
         </div>
     );
